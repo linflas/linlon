@@ -1,5 +1,5 @@
 <script lang="ts">
-    import  Day from '$lib/Day.svelte';
+    import  Day from '$lib/components/Day.svelte';
     export let startday:number;
     export let startdate:number;
     export let times:number[]=[0,0,0,0,0,3,0];
